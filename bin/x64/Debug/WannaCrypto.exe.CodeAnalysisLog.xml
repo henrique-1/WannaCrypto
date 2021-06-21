@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe">
+   <Modules>
+    <Module Name="wannacrypto.exe">
+     <Namespaces>
+      <Namespace Name="WannaCrypto">
+       <Types>
+        <Type Name="Crypto" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DecryptStringAES(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Não descartar objetos várias vezes" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\Minhas coisas\WannaCrypto\WannaCrypto" File="StringEncryption.cs" Line="118">O objeto 'csDecrypt' pode ser descartado mais de uma vez no método 'Crypto.DecryptStringAES(string, string)'. Para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.: Lines: 118</Issue>
+             <Issue Certainty="75" Level="Warning" Path="D:\Minhas coisas\WannaCrypto\WannaCrypto" File="StringEncryption.cs" Line="118">O objeto 'msDecrypt' pode ser descartado mais de uma vez no método 'Crypto.DecryptStringAES(string, string)'. Para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.: Lines: 118</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EncryptStringAES(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Não descartar objetos várias vezes" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\Minhas coisas\WannaCrypto\WannaCrypto" File="StringEncryption.cs" Line="58">O objeto 'csEncrypt' pode ser descartado mais de uma vez no método 'Crypto.EncryptStringAES(string, string)'. Para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.: Lines: 58</Issue>
+             <Issue Certainty="75" Level="Warning" Path="D:\Minhas coisas\WannaCrypto\WannaCrypto" File="StringEncryption.cs" Line="58">O objeto 'msEncrypt' pode ser descartado mais de uma vez no método 'Crypto.EncryptStringAES(string, string)'. Para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.: Lines: 58, 61</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WannaCrypto" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AES_Decrypt(System.String,System.String,System.Byte[])" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Não descartar objetos várias vezes" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\Minhas coisas\WannaCrypto\WannaCrypto" File="WannaCrypto.cs" Line="458">O objeto 'fsCrypt' pode ser descartado mais de uma vez no método 'WannaCrypto.AES_Decrypt(string, string, byte[])'. Para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.: Lines: 458</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AES_Encrypt(System.String,System.String,System.Byte[])" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Não descartar objetos várias vezes" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\Minhas coisas\WannaCrypto\WannaCrypto" File="WannaCrypto.cs" Line="306">O objeto 'fsCrypt' pode ser descartado mais de uma vez no método 'WannaCrypto.AES_Encrypt(string, string, byte[])'. Para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.: Lines: 306</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReleaseCapture()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Como esse é um método P/Invoke, 'WannaCrypto.ReleaseCapture()' deve ser definido em uma classe chamada NativeMethods, SafeNativeMethods ou UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Altere a acessibilidade de P/Invoke 'WannaCrypto.ReleaseCapture()' para que não seja mais visível fora de seu assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SendMessage(System.IntPtr,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Como esse é um método P/Invoke, 'WannaCrypto.SendMessage(IntPtr, int, int, int)' deve ser definido em uma classe chamada NativeMethods, SafeNativeMethods ou UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message Id="2" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">Conforme declarado em seu código, o parâmetro 'wParam' de P/Invoke 'WannaCrypto.SendMessage(IntPtr, int, int, int)' terá 4 bytes nas plataformas 64 bits. Isso não está correto, já que a declaração nativa real desta API indica que ele deve ter 8 bytes nas plataformas 64 bits. Consulte a documentação do SDK da Plataforma MSDN para obter ajuda para determinar que tipo de dados deve ser usado em vez de 'int'.</Issue>
+            </Message>
+            <Message Id="3" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="Breaking">
+             <Issue Name="Parameter" Certainty="95" Level="Error">Conforme declarado em seu código, o parâmetro 'lParam' de P/Invoke 'WannaCrypto.SendMessage(IntPtr, int, int, int)' terá 4 bytes nas plataformas 64 bits. Isso não está correto, já que a declaração nativa real desta API indica que ele deve ter 8 bytes nas plataformas 64 bits. Consulte a documentação do SDK da Plataforma MSDN para obter ajuda para determinar que tipo de dados deve ser usado em vez de 'int'.</Issue>
+            </Message>
+            <Message Id="return" TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="Breaking">
+             <Issue Name="Return" Certainty="95" Level="Error">Conforme declarado em seu código, o tipo de retorno de P/Invoke 'WannaCrypto.SendMessage(IntPtr, int, int, int)' terá 4 bytes nas plataformas 64 bits. Isso não está correto, já que a declaração nativa real desta API indica que ele deve ter 8 bytes nas plataformas 64 bits. Consulte a documentação do SDK da Plataforma MSDN para obter ajuda para determinar que tipo de dados deve ser usado em vez de 'int'.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2020-03-10 14:03:58Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Altere a acessibilidade de P/Invoke 'WannaCrypto.SendMessage(IntPtr, int, int, int)' para que não seja mais visível fora de seu assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>Mover P/Invokes para a classe NativeMethods</Name>
+   <Description>Esse tipo contém membros com o atributo DllImport. Os membros com o atributo DllImport devem estar contidos em classes chamadas NativeMethods, SafeNativeMethods ou UnsafeNativeMethods.</Description>
+   <Resolution Name="Default">Como esse é um método P/Invoke, {0} deve ser definido em uma classe chamada NativeMethods, SafeNativeMethods ou UnsafeNativeMethods.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Não descartar objetos várias vezes" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Não descartar objetos várias vezes</Name>
+   <Description>Um método Dispose implementado corretamente pode ser chamado várias vezes sem lançar uma exceção. No entanto, isso não é garantido e, para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.</Description>
+   <Resolution Name="Default">O objeto {0} pode ser descartado mais de uma vez no método {1}. Para evitar a geração de System.ObjectDisposedException, não chame Dispose mais de uma vez em um objeto.: Lines: 458</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokeDeclarationsShouldBePortable" Category="Microsoft.Portability" CheckId="CA1901">
+   <Name>Declarações P/Invoke devem ser portáteis</Name>
+   <Description>.</Description>
+   <Resolution Name="Parameter">Conforme declarado em seu código, o parâmetro {0} de P/Invoke {1} terá {2} bytes nas plataformas {3}. Isso não está correto, já que a declaração nativa real desta API indica que ele deve ter {4} bytes nas plataformas {3}. Consulte a documentação do SDK da Plataforma MSDN para obter ajuda para determinar que tipo de dados deve ser usado em vez de {5}.</Resolution>
+   <Resolution Name="Return">Conforme declarado em seu código, o tipo de retorno de P/Invoke {0} terá {1} bytes nas plataformas {2}. Isso não está correto, já que a declaração nativa real desta API indica que ele deve ter {3} bytes nas plataformas {2}. Consulte a documentação do SDK da Plataforma MSDN para obter ajuda para determinar que tipo de dados deve ser usado em vez de {4}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182284(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="portabilityrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401">
+   <Name>P/Invokes não devem ser visíveis</Name>
+   <Description>A camada Interop não deve ser pública. O atributo DllImport não deve ser aplicado a membros publicamente acessíveis (públicos ou protegidos).</Description>
+   <Resolution Name="Default">Altere a acessibilidade de P/Invoke {0} para que não seja mais visível fora de seu assembly.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182209.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Recolher Tudo</String>
+  <String Key="CheckId">Verificar ID</String>
+  <String Key="Error">Erro</String>
+  <String Key="Errors">erro(s)</String>
+  <String Key="ExpandAll">Expandir Tudo</String>
+  <String Key="Help">Ajuda</String>
+  <String Key="Line">Linha</String>
+  <String Key="Messages">mensagem(ns)</String>
+  <String Key="LocationNotStoredInPdb">[Local não armazenado em Pdb]</String>
+  <String Key="Project">Projeto</String>
+  <String Key="Resolution">Resolução</String>
+  <String Key="Rule">Regra</String>
+  <String Key="RuleFile">Arquivo de Regra</String>
+  <String Key="RuleDescription">Descrição da Regra</String>
+  <String Key="Source">Origem</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Destino</String>
+  <String Key="Warning">Aviso</String>
+  <String Key="Warnings">aviso(s)</String>
+  <String Key="ReportTitle">Relatório de Análise de Código</String>
+ </Localized>
+</FxCopReport>
