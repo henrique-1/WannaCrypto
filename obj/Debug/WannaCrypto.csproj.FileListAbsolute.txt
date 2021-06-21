@@ -1,0 +1,10 @@
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\Debug\WannaCrypto.exe.config
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\Debug\WannaCrypto.exe
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\Debug\WannaCrypto.pdb
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\Debug\WannaCrypto.csprojAssemblyReference.cache
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\Debug\WannaCrypto.WannaCrypto.resources
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\Debug\WannaCrypto.Properties.Resources.resources
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\Debug\WannaCrypto.csproj.GenerateResource.cache
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\Debug\WannaCrypto.csproj.CoreCompileInputs.cache
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\Debug\WannaCrypto.exe
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\Debug\WannaCrypto.pdb

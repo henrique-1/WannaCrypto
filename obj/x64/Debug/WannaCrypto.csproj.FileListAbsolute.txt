@@ -1,0 +1,92 @@
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.config
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.pdb
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.WannaCrypto.resources
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.Properties.Resources.resources
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.GenerateResource.cache
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.CoreCompileInputs.cache
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe
+D:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.pdb
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.config
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.pdb
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csprojAssemblyReference.cache
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.WannaCrypto.resources
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.Properties.Resources.resources
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.GenerateResource.cache
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.CoreCompileInputs.cache
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.pdb
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.manifest
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.application
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.CodeAnalysisLog.xml
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.lastcodeanalysissucceeded
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.TrustInfo.xml
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe.manifest
+E:\Minhas coisas\Meus Programas no VisualStudio 2019\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.application
+E:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.config
+E:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.manifest
+E:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.application
+E:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe
+E:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.pdb
+E:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.CodeAnalysisLog.xml
+E:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.lastcodeanalysissucceeded
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csprojAssemblyReference.cache
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.WannaCrypto.resources
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.Properties.Resources.resources
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.GenerateResource.cache
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.CoreCompileInputs.cache
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.TrustInfo.xml
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe.manifest
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.application
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe
+E:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.pdb
+D:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.config
+D:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.manifest
+D:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.application
+D:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe
+D:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.pdb
+D:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.CodeAnalysisLog.xml
+D:\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.lastcodeanalysissucceeded
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csprojAssemblyReference.cache
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.WannaCrypto.resources
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.Properties.Resources.resources
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.GenerateResource.cache
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.CoreCompileInputs.cache
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.TrustInfo.xml
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe.manifest
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.application
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe
+D:\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.pdb
+F:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.config
+F:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.manifest
+F:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.application
+F:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe
+F:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.pdb
+F:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.CodeAnalysisLog.xml
+F:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.lastcodeanalysissucceeded
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csprojAssemblyReference.cache
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.WannaCrypto.resources
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.Properties.Resources.resources
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.GenerateResource.cache
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.TrustInfo.xml
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe.manifest
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.application
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe
+F:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.pdb
+D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.config
+D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.manifest
+D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.application
+D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe
+D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.pdb
+D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.CodeAnalysisLog.xml
+D:\Minhas coisas\WannaCrypto\WannaCrypto\bin\x64\Debug\WannaCrypto.exe.lastcodeanalysissucceeded
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csprojAssemblyReference.cache
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.WannaCrypto.resources
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.Properties.Resources.resources
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.csproj.GenerateResource.cache
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.TrustInfo.xml
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe.manifest
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.application
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.exe
+D:\Minhas coisas\WannaCrypto\WannaCrypto\obj\x64\Debug\WannaCrypto.pdb
